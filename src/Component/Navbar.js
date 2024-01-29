@@ -5,9 +5,9 @@ const Navbar = () => {
     <div className='menu-bar'>
     <img src='https://www.freepnglogos.com/uploads/bus-png/file-bus-svg-wikimedia-commons-29.png' />
         <ul className='menu-list'>
-       <li>Accueil</li>
-       <li>Reservation</li>
-       <li className='btn-orange'>Se connecter</li>
+        <li><a>Home</a></li>
+       <li><a>Book</a></li>
+       <li className='btn-orange'>Login</li>
         </ul>
   </div>
      )
